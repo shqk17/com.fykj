@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration debug="true">
+  <contextName>Fykj-training</contextName>
+    <!-- allows configuration of logback via JMX  -->
+    <jmxConfigurator />
+    <!-- 控制台输出日志 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[%d{yyyy/MM/dd HH:mm:ss.SSS}] : %-5level :   %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+     
+    <!-- 指定包路径输出规则 -->
+    <logger name="org.springframework" level="DEBUG">
+        <appender-ref ref="STDOUT" />
+    </logger>
+    <logger name="com.fykj" >
+        <level value="DEBUG" />
+        <appender-ref ref="STDOUT" />
+    </logger>
+</configuration>
