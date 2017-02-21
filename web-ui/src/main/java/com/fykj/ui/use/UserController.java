@@ -26,6 +26,7 @@ import com.fykj.web.beans.ResultBean;
   * @since 0.0.1
   */
 @Controller
+@RequestMapping("/userpage")
 public class UserController {
     @RequestMapping("/login")    
     public String login(){      
