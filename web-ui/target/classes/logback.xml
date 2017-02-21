@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <configuration debug="true">
-  <contextName>Fykj-training</contextName>
+  <contextName>Fykj-web</contextName>
     <!-- allows configuration of logback via JMX  -->
     <jmxConfigurator />
     <!-- 控制台输出日志 -->

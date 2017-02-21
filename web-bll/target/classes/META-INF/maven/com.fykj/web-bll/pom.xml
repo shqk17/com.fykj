@@ -25,6 +25,11 @@
     	<artifactId>web-beans</artifactId>
     	<version>0.0.1-SNAPSHOT</version>
     </dependency>
+    <dependency>
+    	<groupId>com.fykj</groupId>
+    	<artifactId>web-dao</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
   <build>
 		<plugins>
