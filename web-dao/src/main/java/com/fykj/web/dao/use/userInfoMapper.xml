@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.fykj.web.dao.use.IUserInfoMapper">
-	<select id="selectUserInfo" parameterType=String resultMap="com.fykj.web.beans.use.UserInfo">
-		select * from use_tb
-		where userName=#{userName}
-	</select>
-</mapper>
